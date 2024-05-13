@@ -33,16 +33,13 @@ h1 {
     line-height: 90px;
 }
 nav {
-
     display: flex;
-    /* background-color: #0A0A0A; */
     color: #F8F8F8;   
     font-size: large;
     font-family: 'archivo black', sans-serif;
     position: fixed;
     top: 2vh;
-    right: 2vw;
-    
+    right: 2vw;    
 }
 ul#nav_list {
     list-style-type: none;
@@ -63,7 +60,6 @@ main {
     background-color: #F8F8F8;
 }
 section {
-    /* background-color: #513953; */
     height: 30vw;
     display: flex;
     align-items: flex-end;
@@ -80,12 +76,7 @@ section#about-me {
     background-position: 25% 75%;
     background-size: 7em;
     background-color: #d5e1d4;
-    width: 50%;
-    /* border-radius: 25PX; */
-    /* border-style: solid;
-    border-width: thick;
-    border-color: #fff78c; */
-    
+    width: 50%;    
 }
 section#skills {
     
@@ -95,14 +86,9 @@ section#skills {
     background-size: 7em;
     background-color: #d5e1d4;
     width: 50%;
-    /* border-style: solid;
-    border-width: thick;
-    border-color: #F8F8F8; */
     align-items:flex-start;
 }
-
-h2{
-    
+h2{    
     font-family: verdana, sans-serif;
     font-size: 36px;
     color: #171718;
@@ -175,28 +161,19 @@ img#logofooter {
 
         padding: 1.25em 1.25em;
     height: auto;
-    margin: 0 0;
-    
+    margin: 0 0;    
     }
     section#about-me {
         background-size: 3em;
         height: 100vw;
         /* background-color: #d5e1d4; */
-        width: 100%;
-        /* border-radius: 25PX; */
-        /* border-style: solid;
-        border-width: thick;
-        border-color: #F8F8F8; */
-        
+        width: 100%;        
     }
     section#skills {
         background-size: 3em;
         height: 100vw;
         width: 100%;
-    }
-
-
-    
+    }    
     footer {
         display: block;
         text-align: center;
