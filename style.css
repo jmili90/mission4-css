@@ -1,0 +1,204 @@
+* { 
+    margin: 0;
+}
+body {
+    background-color: #f8f8f8;
+}
+header {
+    background-image: url(blob2.svg), url(blob.svg), url(blob3.svg), url(blob4.svg);
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+    background-position: 90% 15%, left bottom, 95% 80%, 50% 30%;
+    background-size: 10vmax, 70vmax, 10vmax, 8vmax;
+    display: block;
+    padding-top: 15%;        
+    padding-bottom: 15%;
+    padding-left: 20%;
+    padding-right: 20%;
+    height: 25vh;
+}
+img#logo {
+    max-width: 100px;
+    padding-bottom: 20px;
+    display: flex;
+    position: fixed;
+    top: 2vh;
+    left: 2vw;
+}
+h1 {
+    font-family: 'archivo black', sans-serif;
+    font-size: 100px;
+    font-weight: 400;
+    color: #513953;
+    padding: 0.2em 0;
+    line-height: 90px;
+}
+nav {
+
+    display: flex;
+    /* background-color: #0A0A0A; */
+    color: #F8F8F8;   
+    font-size: large;
+    font-family: 'archivo black', sans-serif;
+    position: fixed;
+    top: 2vh;
+    right: 2vw;
+    
+}
+ul#nav_list {
+    list-style-type: none;
+    padding: 0 0.5em;
+    display: flex;
+    width:fit-content ;
+    
+}
+.nav_link {
+    color: #F8F8F8;
+    text-decoration: none;
+    padding: 0.25em 0.75em;
+    background-color: #513953;
+    border-radius: 16px;
+}
+main {
+    padding: 2% 10%;
+    background-color: #F8F8F8;
+}
+section {
+    /* background-color: #513953; */
+    height: 30vw;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    padding: 2em 2em;
+    margin: 3em 3em;
+}
+.section2 {
+    align-items: flex-start;
+}
+section#about-me {
+    background-image: url(blob4.svg);
+    background-repeat: no-repeat;
+    background-position: 25% 75%;
+    background-size: 7em;
+    background-color: #d5e1d4;
+    width: 50%;
+    /* border-radius: 25PX; */
+    /* border-style: solid;
+    border-width: thick;
+    border-color: #fff78c; */
+    
+}
+section#skills {
+    
+    background-image: url(blob3.svg);
+    background-repeat: no-repeat;
+    background-position: 75% 75%;
+    background-size: 7em;
+    background-color: #d5e1d4;
+    width: 50%;
+    /* border-style: solid;
+    border-width: thick;
+    border-color: #F8F8F8; */
+    align-items:flex-start;
+}
+
+h2{
+    
+    font-family: verdana, sans-serif;
+    font-size: 36px;
+    color: #171718;
+    padding-bottom: 0.5em;
+}
+h3{
+    font-size: 24px;
+    font-family: Verdana, sans-serif;
+    line-height: 2em;
+}
+p {
+    font-family: Verdana, sans-serif;
+    line-height: 2em;
+    letter-spacing: 1px;
+}
+li {
+    font-family: Verdana, sans-serif;
+    padding-left: 2%;
+    padding: 6px;
+    letter-spacing: 1px;
+    line-height: 1.5em;
+}        
+footer {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: #F8F8F8;
+    background-color: #0A0A0A;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    background-image: url(blob.svg);
+    background-repeat:repeat-x;
+    background-size: 20vw;
+}
+.footerdiv {
+    padding: 1.25em 1.25em;
+    display: flex;
+    justify-content: space-around;
+}
+a {
+    font-family: Verdana, sans-serif;
+    line-height: 2em;
+    color: #F8F8F8;
+    text-decoration: none;
+    list-style-type: none;
+}
+img#logofooter {
+    max-width: 35px;
+}
+@media only screen and (max-width: 768px) {
+    * {            
+        box-sizing: border-box;
+    }
+    main {
+        padding: 0;
+    }
+    header {
+        height: 85vh;
+        padding: 45% 1.25em;
+    }
+    h1 {
+        font-size: 72px;
+        line-height: 1.0;
+    }
+    section {
+        display: block;
+        background-color: #F8F8F8;
+
+        padding: 1.25em 1.25em;
+    height: auto;
+    margin: 0 0;
+    
+    }
+    section#about-me {
+        background-size: 3em;
+        height: 100vw;
+        /* background-color: #d5e1d4; */
+        width: 100%;
+        /* border-radius: 25PX; */
+        /* border-style: solid;
+        border-width: thick;
+        border-color: #F8F8F8; */
+        
+    }
+    section#skills {
+        background-size: 3em;
+        height: 100vw;
+        width: 100%;
+    }
+
+
+    
+    footer {
+        display: block;
+        text-align: center;
+    }
+}
