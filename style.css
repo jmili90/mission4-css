@@ -49,14 +49,21 @@ ul#nav_list {
     
 }
 .nav_link {
-    color: #F8F8F8;
+    color: #513953;
     text-decoration: none;
-    padding: 0.25em 2vw;
-    background-color: #513953;
+    padding: 0.25em 0.75em;
+    background-color: #F8F8F8;
     border-radius: 16px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #513953;
+}
+.nav_link:hover {
+    border-style: dashed;
+    background-color: #d5e1d4;
 }
 main {
-    padding: 2% 10%;
+    padding: 2% 3%;
     background-color: #F8F8F8;
 }
 section {
@@ -130,12 +137,20 @@ footer {
     display: flex;
     justify-content: space-around;
 }
-a {
+a#footerlink {
     font-family: Verdana, sans-serif;
     line-height: 2em;
     color: #F8F8F8;
     text-decoration: none;
     list-style-type: none;
+}
+a#footerlink:hover {
+    border: solid;
+    border-width: 1px;
+    border-radius: 16px;
+    border-style: dashed;
+    border-color: #F8F8F8;
+    padding: 0.25em 0.75em;
 }
 img#logofooter {
     max-width: 35px;
@@ -155,13 +170,15 @@ img#logofooter {
         font-size: 72px;
         line-height: 1.0;
     }
+    .nav_link {        
+        padding: 0.25em 2vw;
+    }
     section {
         display: block;
         background-color: #F8F8F8;
-
         padding: 1.25em 1.25em;
-    height: auto;
-    margin: 0 0;    
+        height: auto;
+        margin: 0 0;    
     }
     section#about-me {
         background-position: 75% 75%;
