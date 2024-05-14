@@ -170,6 +170,9 @@ img#logofooter {
         font-size: 72px;
         line-height: 1.0;
     }
+    ul#nav_list {
+        flex-wrap: wrap;
+    }
     .nav_link {        
         padding: 0.25em 2vw;
     }
